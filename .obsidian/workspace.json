@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interview/Linux系统编程/53 POSIX 信号量/53.2 命名信号量.md",
+                "file": "interview/Linux系统编程/54 POSIX 共享内存/54.5 共享内存API比较.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "53.2 命名信号量"
+              "title": "54.5 共享内存API比较"
             }
           },
           {
@@ -215,19 +215,28 @@
   },
   "active": "4a20f904789f1224",
   "lastOpenFiles": [
-    "interview/Linux系统编程/53 POSIX 信号量/53.3 信号量操作.md",
-    "interview/Linux系统编程/53 POSIX 信号量/53.4 未命名信号量.md",
+    "interview/Linux系统编程/54 POSIX 共享内存/54.4 删除共享内存对象.md",
+    "interview/Linux系统编程/54 POSIX 共享内存/54.5 共享内存API比较.md",
+    "interview/Linux系统编程/54 POSIX 共享内存/54.3 使用共享内存对象.md",
+    "interview/Linux系统编程/54 POSIX 共享内存/54.2 创建共享内存对象.md",
+    "interview/Linux系统编程/54 POSIX 共享内存/54.1 概述.md",
+    "interview/Linux系统编程/51 POSIX IPC介绍/51.1 API概述.md",
+    "interview/Linux系统编程/54 POSIX 共享内存",
+    "interview/Linux系统编程/51 POSIX IPC介绍/51.2 System V IPC 与 POSIX IPC比较.md",
+    "interview/Linux系统编程/52 POSIX消息队列/52.4 消息队列特性.md",
+    "interview/Linux系统编程/52 POSIX消息队列/52.7 Linux特有特性.md",
     "interview/Linux系统编程/52 POSIX消息队列/52.9 POSIX和SYStem V消息队列比较.md",
     "interview/Linux系统编程/52 POSIX消息队列/52.8 消息队列限制.md",
-    "interview/Linux系统编程/52 POSIX消息队列/52.7 Linux特有特性.md",
     "interview/Linux系统编程/52 POSIX消息队列/52.6 消息通知.md",
-    "interview/Linux系统编程/52 POSIX消息队列/52.5 交换消息.md",
-    "interview/Linux系统编程/52 POSIX消息队列/52.4 消息队列特性.md",
     "interview/Linux系统编程/52 POSIX消息队列/52.3 描述符和消息队列之间的关系.md",
+    "interview/Linux系统编程/51 POSIX IPC介绍",
+    "interview/Linux系统编程/52 POSIX消息队列/52.5 交换消息.md",
     "interview/Linux系统编程/52 POSIX消息队列/52.2 打开、关闭和断开链接消息队列.md",
     "interview/Linux系统编程/52 POSIX消息队列/52.1 概述.md",
-    "interview/Linux系统编程/53 POSIX 信号量/53.5 与其他同步技术比较.md",
     "interview/Linux系统编程/53 POSIX 信号量/53.2 命名信号量.md",
+    "interview/Linux系统编程/53 POSIX 信号量/53.3 信号量操作.md",
+    "interview/Linux系统编程/53 POSIX 信号量/53.4 未命名信号量.md",
+    "interview/Linux系统编程/53 POSIX 信号量/53.5 与其他同步技术比较.md",
     "interview/Linux系统编程/53 POSIX 信号量",
     "interview/Linux系统编程/45 System IPC概述/45.4 IPC标识符和客户端调用使用的算法.md",
     "interview/Linux系统编程/45 System IPC概述/45.7 获取所有IPC对象列表.md",
@@ -236,15 +245,8 @@
     "interview/Linux系统编程/45 System IPC概述/45.2 IPC Key.md",
     "消息队列解释.md",
     "Pasted image 20250916090103.png",
-    "interview/Linux系统编程/46 System V 消息队列/46.9 System V 消息队列的缺点.md",
     "interview/Linux系统编程/52 POSIX消息队列",
-    "interview/Linux系统编程/46 System V 消息队列/46.8 使用消息队列实现文件服务器应用程序.md",
-    "interview/Linux系统编程/46 System V 消息队列/46.7 使用消息队列实现客户端-服务器应用程序.md",
     "Pasted image 20250916083854.png",
-    "interview/Linux系统编程/46 System V 消息队列/46.6 显示系统中所有消息队列.md",
-    "interview/Linux系统编程/46 System V 消息队列/46.5 消息队列的限制.md",
-    "interview/Linux系统编程/46 System V 消息队列/46.4 消息队列关联的数据结构.md",
-    "interview/Linux系统编程/46 System V 消息队列/46.3 消息队列的操作控制.md",
     "Linux命令行大全",
     "interview/Linux系统编程/46 System V 消息队列",
     "interview/项目2/知识点补充/C++20",
@@ -257,9 +259,7 @@
     "Pasted image 20250915105631.png",
     "interview/Linux系统编程/44 管道和FIFO",
     "interview/Linux系统编程/43 进程间通信简介",
-    "未命名.base",
     "Pasted image 20250904111450.png",
-    "Pasted image 20250901204121.png",
-    "interview/Wireshark/4 玩转捕获数据包"
+    "Pasted image 20250901204121.png"
   ]
 }
