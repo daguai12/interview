@@ -27,40 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interview/Linux系统编程/54 POSIX 共享内存/54.5 共享内存API比较.md",
+                "file": "Linux命令行大全/9 权限.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "54.5 共享内存API比较"
-            }
-          },
-          {
-            "id": "3b3ebd4c05743ee3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interview/项目2/代码解析/comp/condition_variable.hpp.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "condition_variable.hpp"
-            }
-          },
-          {
-            "id": "5b98511c906da704",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interview/项目2/leissbaker翻译/3.C++ Coroutines Understanding the promise type.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3.C++ Coroutines Understanding the promise type"
+              "title": "9 权限"
             }
           }
         ],
@@ -215,8 +187,24 @@
   },
   "active": "4a20f904789f1224",
   "lastOpenFiles": [
-    "interview/Linux系统编程/54 POSIX 共享内存/54.4 删除共享内存对象.md",
+    "interview/项目2/代码解析/comp/condition_variable.hpp.md",
+    "Linux命令行大全/9 权限.md",
+    "Linux命令行大全/8 高级键盘技巧.md",
+    "Linux命令行大全/未命名",
+    "Linux命令行大全/7 用shell看世界.md",
+    "interview/项目2/GoogleBenchMark/lab4a.md",
+    "interview/项目2/GoogleBenchMark/bench_helper.hpp.md",
+    "interview/项目2/知识点补充/future,promise,lauch.md",
+    "interview/项目2/GoogleBenchMark",
+    "interview/项目2/压力测试/benchmark/shell脚本解释.md",
+    "interview/项目2/压力测试/benchmark/测试流程.md",
+    "interview/项目2/压力测试/benchmark/如何在CMakeLists中运行rust_echo_server.md",
+    "interview/项目2/压力测试/rust_echo_bench的使用.md",
+    "interview/项目2/压力测试/benchmark/CMakeLists.txt.md",
+    "interview/项目2/压力测试/benchmark",
     "interview/Linux系统编程/54 POSIX 共享内存/54.5 共享内存API比较.md",
+    "interview/项目2/压力测试",
+    "interview/Linux系统编程/54 POSIX 共享内存/54.4 删除共享内存对象.md",
     "interview/Linux系统编程/54 POSIX 共享内存/54.3 使用共享内存对象.md",
     "interview/Linux系统编程/54 POSIX 共享内存/54.2 创建共享内存对象.md",
     "interview/Linux系统编程/54 POSIX 共享内存/54.1 概述.md",
@@ -231,34 +219,18 @@
     "interview/Linux系统编程/52 POSIX消息队列/52.3 描述符和消息队列之间的关系.md",
     "interview/Linux系统编程/51 POSIX IPC介绍",
     "interview/Linux系统编程/52 POSIX消息队列/52.5 交换消息.md",
-    "interview/Linux系统编程/52 POSIX消息队列/52.2 打开、关闭和断开链接消息队列.md",
-    "interview/Linux系统编程/52 POSIX消息队列/52.1 概述.md",
-    "interview/Linux系统编程/53 POSIX 信号量/53.2 命名信号量.md",
-    "interview/Linux系统编程/53 POSIX 信号量/53.3 信号量操作.md",
-    "interview/Linux系统编程/53 POSIX 信号量/53.4 未命名信号量.md",
-    "interview/Linux系统编程/53 POSIX 信号量/53.5 与其他同步技术比较.md",
     "interview/Linux系统编程/53 POSIX 信号量",
-    "interview/Linux系统编程/45 System IPC概述/45.4 IPC标识符和客户端调用使用的算法.md",
-    "interview/Linux系统编程/45 System IPC概述/45.7 获取所有IPC对象列表.md",
-    "interview/Linux系统编程/45 System IPC概述/45.6 ipcs和ipcrm命令.md",
-    "interview/Linux系统编程/45 System IPC概述/45.3 关联数据结构和对象权限.md",
-    "interview/Linux系统编程/45 System IPC概述/45.2 IPC Key.md",
-    "消息队列解释.md",
     "Pasted image 20250916090103.png",
     "interview/Linux系统编程/52 POSIX消息队列",
     "Pasted image 20250916083854.png",
     "Linux命令行大全",
     "interview/Linux系统编程/46 System V 消息队列",
-    "interview/项目2/知识点补充/C++20",
-    "interview/Linux系统编程/45 System IPC概述",
     "Pasted image 20250915111827.png",
     "Pasted image 20250915111819.png",
     "Pasted image 20250915111745.png",
     "Pasted image 20250915111354.png",
     "Pasted image 20250915111212.png",
     "Pasted image 20250915105631.png",
-    "interview/Linux系统编程/44 管道和FIFO",
-    "interview/Linux系统编程/43 进程间通信简介",
     "Pasted image 20250904111450.png",
     "Pasted image 20250901204121.png"
   ]
