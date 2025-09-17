@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interview/Linux系统编程/52 POSIX消息队列/52.3 描述符和消息队列之间的关系.md",
+                "file": "interview/Linux系统编程/49 内存映射/49.7 匿名映射.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "52.3 描述符和消息队列之间的关系"
+              "title": "49.7 匿名映射"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux命令行大全/9 权限.md",
+                "file": "interview/Linux系统编程/49 内存映射/49.3 解除映射区域： munmap().md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9 权限"
+              "title": "49.3 解除映射区域： munmap()"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,53 +184,53 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "4a20f904789f1224",
+  "active": "fc8f06bc95c0fdbc",
   "lastOpenFiles": [
-    "interview/项目2/代码解析/comp/condition_variable.hpp.md",
-    "Linux命令行大全/9 权限.md",
-    "Linux命令行大全/8 高级键盘技巧.md",
-    "Linux命令行大全/未命名",
-    "Linux命令行大全/7 用shell看世界.md",
-    "interview/项目2/GoogleBenchMark/lab4a.md",
-    "interview/项目2/GoogleBenchMark/bench_helper.hpp.md",
-    "interview/项目2/知识点补充/future,promise,lauch.md",
-    "interview/项目2/GoogleBenchMark",
-    "interview/项目2/压力测试/benchmark/shell脚本解释.md",
-    "interview/项目2/压力测试/benchmark/测试流程.md",
-    "interview/项目2/压力测试/benchmark/如何在CMakeLists中运行rust_echo_server.md",
-    "interview/项目2/压力测试/rust_echo_bench的使用.md",
-    "interview/项目2/压力测试/benchmark/CMakeLists.txt.md",
-    "interview/项目2/压力测试/benchmark",
-    "interview/Linux系统编程/54 POSIX 共享内存/54.5 共享内存API比较.md",
-    "interview/项目2/压力测试",
-    "interview/Linux系统编程/54 POSIX 共享内存/54.4 删除共享内存对象.md",
-    "interview/Linux系统编程/54 POSIX 共享内存/54.3 使用共享内存对象.md",
-    "interview/Linux系统编程/54 POSIX 共享内存/54.2 创建共享内存对象.md",
-    "interview/Linux系统编程/54 POSIX 共享内存/54.1 概述.md",
-    "interview/Linux系统编程/51 POSIX IPC介绍/51.1 API概述.md",
-    "interview/Linux系统编程/54 POSIX 共享内存",
-    "interview/Linux系统编程/51 POSIX IPC介绍/51.2 System V IPC 与 POSIX IPC比较.md",
-    "interview/Linux系统编程/52 POSIX消息队列/52.4 消息队列特性.md",
-    "interview/Linux系统编程/52 POSIX消息队列/52.7 Linux特有特性.md",
-    "interview/Linux系统编程/52 POSIX消息队列/52.9 POSIX和SYStem V消息队列比较.md",
-    "interview/Linux系统编程/52 POSIX消息队列/52.8 消息队列限制.md",
-    "interview/Linux系统编程/52 POSIX消息队列/52.6 消息通知.md",
+    "interview/Linux系统编程/49 内存映射/49.6 其他mmap()标记.md",
+    "interview/Linux系统编程/49 内存映射/49.7 匿名映射.md",
+    "interview/Linux系统编程/49 内存映射/49.5 同步映射区域：msync().md",
+    "interview/Linux系统编程/49 内存映射/49.4 文件映射.md",
+    "Pasted image 20250917110323.png",
+    "Pasted image 20250917110102.png",
+    "Pasted image 20250917104558.png",
+    "Pasted image 20250917103658.png",
+    "Pasted image 20250917103344.png",
+    "interview/Linux系统编程/49 内存映射/49.3 解除映射区域： munmap().md",
     "interview/Linux系统编程/52 POSIX消息队列/52.3 描述符和消息队列之间的关系.md",
+    "interview/Linux系统编程/49 内存映射/49.2 创建一个映射：mmap().md",
+    "interview/Linux系统编程/49 内存映射/49.1 概述.md",
+    "interview/Linux系统编程/13 文件IO缓冲/13 文件IO缓冲.md",
+    "interview/Linux系统编程/49 内存映射",
+    "C++面试题/final关键字去虚拟化.md",
+    "interview/Linux系统编程/未命名.md",
+    "C++面试题/final和override关键字.md",
+    "C++面试题/数组名和指针（这⾥为指向数组⾸元素的指针）区别？.md",
+    "C++面试题/C++的顶层const和底层const.md",
+    "C++面试题/C++中const和static的作⽤.md",
+    "C++面试题/strlen和sizeof区别？.md",
+    "C++面试题/变量声明和定义区别？.md",
+    "C++面试题/宏定义和typedef区别？.md",
+    "C++面试题/未命名",
+    "C++面试题/宏定义和函数有何区别？.md",
+    "C++面试题/constexpr vs const.md",
+    "C++面试题/被free回收的内存是⽴即返还给操作系统吗？Analyzing Memory Optimization Strategy.md",
+    "C++面试题/既然有了malloc free，C++中为什么还需要new delete呢？直接⽤malloc free不好.md",
+    "C++面试题/placement new.md",
+    "C++面试题/new delte是如何实现的.md",
+    "C++面试题/new delete 与 malloc free的异同.md",
+    "C++面试题/你觉得堆快⼀点还是栈快⼀点？.md",
+    "C++面试题",
+    "Linux命令行大全/未命名",
+    "interview/项目2/GoogleBenchMark",
+    "interview/项目2/压力测试/benchmark",
+    "interview/项目2/压力测试",
+    "interview/Linux系统编程/54 POSIX 共享内存",
     "interview/Linux系统编程/51 POSIX IPC介绍",
-    "interview/Linux系统编程/52 POSIX消息队列/52.5 交换消息.md",
     "interview/Linux系统编程/53 POSIX 信号量",
     "Pasted image 20250916090103.png",
-    "interview/Linux系统编程/52 POSIX消息队列",
     "Pasted image 20250916083854.png",
-    "Linux命令行大全",
-    "interview/Linux系统编程/46 System V 消息队列",
     "Pasted image 20250915111827.png",
     "Pasted image 20250915111819.png",
-    "Pasted image 20250915111745.png",
-    "Pasted image 20250915111354.png",
-    "Pasted image 20250915111212.png",
-    "Pasted image 20250915105631.png",
-    "Pasted image 20250904111450.png",
-    "Pasted image 20250901204121.png"
+    "Pasted image 20250915111745.png"
   ]
 }
