@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interview/Linux系统编程/56 SOCKET：介绍/56.1 概述.md",
+                "file": "Linux命令行大全/32 位置参数.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "56.1 概述"
+              "title": "32 位置参数"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux命令行大全/29 流程控制：while util 循环.md",
+                "file": "C++17新特性/4. optional.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "29 流程控制：while util 循环"
+              "title": "4. optional"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 320.5
   },
   "right": {
     "id": "83084a83bc05c3d4",
@@ -185,38 +184,44 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "4a20f904789f1224",
+  "active": "fc8f06bc95c0fdbc",
   "lastOpenFiles": [
-    "Linux命令行大全/25 变量与常量.md",
-    "Linux命令行大全/29 流程控制：while util 循环.md",
-    "Linux命令行大全/27 流程控制：if分支.md",
-    "Linux命令行大全/28 读取键盘输入.md",
-    "Linux命令行大全/25 启动项目.md",
-    "Linux命令行大全/24 编写第一个脚本.md",
-    "interview/Linux系统编程/59 SOCKET：Internet Domain/59.12 Internet domain socket 库.md",
-    "interview/Linux系统编程/59 SOCKET：Internet Domain/59.10 独立于协议的主机和服务转换.md",
-    "interview/Linux系统编程/59 SOCKET：Internet Domain/59.11 客户端 服务器示例（流式socket).md",
-    "interview/Linux系统编程/59 SOCKET：Internet Domain/59.9 etc services 文件.md",
-    "interview/Linux系统编程/59 SOCKET：Internet Domain/59.8 域名系统（DNS）.md",
-    "interview/Linux系统编程/59 SOCKET：Internet Domain/59.5 主机和服务转换函数概述.md",
-    "interview/Linux系统编程/59 SOCKET：Internet Domain/59.4 Internet socket 地址.md",
-    "interview/Linux系统编程/59 SOCKET：Internet Domain/59.3 数据表示.md",
-    "interview/Linux系统编程/59 SOCKET：Internet Domain/反向dns查询.md",
-    "interview/Linux系统编程/59 SOCKET：Internet Domain/59.14 UNIX 与 Internet domain socket 比较.md",
-    "interview/Linux系统编程/59 SOCKET：Internet Domain/优点.md",
-    "interview/Linux系统编程/60 SOCKET： 高级主题/60.1 迭代型和并发型服务器.md",
+    "Linux命令行大全/31. 流程控制： case分支.md",
+    "Linux命令行大全/30 故障诊断.md",
+    "Linux命令行大全/32 位置参数.md",
+    "interview/Linux系统编程/49 内存映射/详解swap分区.md",
+    "interview/Linux系统编程/49 内存映射/比喻理解.md",
+    "interview/Linux系统编程/49 内存映射/49.10 MAP_FIXED标记.md",
+    "interview/Linux系统编程/49 内存映射/49.9 MAP_NORESERVE和过度利用交换空间.md",
+    "interview/Linux系统编程/49 内存映射/49.8 重新映射一个映射区域：mremap().md",
+    "interview/Linux系统编程/49 内存映射/49.7 匿名映射.md",
+    "interview/Linux系统编程/49 内存映射/49.6 其他mmap()标记.md",
+    "interview/Linux系统编程/49 内存映射/49.5 同步映射区域：msync().md",
+    "interview/Linux系统编程/49 内存映射/49.4 文件映射.md",
+    "interview/Linux系统编程/49 内存映射/49.3 解除映射区域： munmap().md",
+    "interview/Linux系统编程/49 内存映射/49.2 创建一个映射：mmap().md",
+    "interview/Linux系统编程/49 内存映射/49.1 概述.md",
+    "interview/Linux系统编程/46 System V 消息队列/46.4 消息队列关联的数据结构.md",
+    "interview/Linux系统编程/46 System V 消息队列/46.3 消息队列的操作控制.md",
+    "interview/Linux系统编程/46 System V 消息队列/46.7 使用消息队列实现客户端-服务器应用程序.md",
+    "interview/Linux系统编程/46 System V 消息队列/46.6 显示系统中所有消息队列.md",
+    "interview/Linux系统编程/46 System V 消息队列/46.5 消息队列的限制.md",
+    "interview/Linux系统编程/46 System V 消息队列/案例.md",
+    "interview/Linux系统编程/46 System V 消息队列/46.1 创建或打开一个消息队列.md",
+    "interview/Linux系统编程/45 System IPC概述/45.8 IPC限制.md",
+    "interview/Linux系统编程/45 System IPC概述/45.7 获取所有IPC对象列表.md",
+    "interview/Linux系统编程/45 System IPC概述/45.6 ipcs和ipcrm命令.md",
+    "interview/Linux系统编程/45 System IPC概述/45.4 IPC标识符和客户端调用使用的算法.md",
+    "C++17新特性/C++17完全指南",
+    "C++17新特性",
+    "interview/Linux系统编程/63 其他备选的IO模型",
+    "Pasted image 20250919101751.png",
+    "interview/Linux系统编程/61 SOCKET：高级主题",
+    "interview/Linux系统编程/60 服务器设计",
     "interview/Linux系统编程/60 SOCKET： 高级主题",
     "Pasted image 20250918163128.png",
-    "interview/Linux系统编程/59 SOCKET：Internet Domain/59.2 网络字节序.md",
     "Pasted image 20250918155710.png",
-    "interview/Linux系统编程/59 SOCKET：Internet Domain/59.1 Internet domain socket.md",
-    "interview/Linux系统编程/57 SOCKET：UNIX DOMAIN/57.3 UNIX domain中的数据报.md",
     "interview/Linux系统编程/59 SOCKET：Internet Domain",
-    "interview/Linux系统编程/57 SOCKET：UNIX DOMAIN/57.4UNIX domain socket 权限.md",
-    "interview/Linux系统编程/57 SOCKET：UNIX DOMAIN/57.6 Linux 抽象 socket 名空间.md",
-    "interview/Linux系统编程/57 SOCKET：UNIX DOMAIN/57.5 创建互联socket对：scoketpair().md",
-    "interview/Linux系统编程/57 SOCKET：UNIX DOMAIN/57.2UNIX domain 中的流 socket.md",
-    "interview/Linux系统编程/56 SOCKET：介绍/56.6 数据报文 socket.md",
     "interview/Linux系统编程/57 SOCKET：UNIX DOMAIN",
     "Pasted image 20250918104251.png",
     "Pasted image 20250918103200.png",
@@ -224,14 +229,8 @@
     "Pasted image 20250918102336.png",
     "interview/Linux系统编程/56 SOCKET：介绍",
     "Linux命令行大全/未命名",
-    "interview/项目2/压力测试/benchmarks",
     "Pasted image 20250917110323.png",
     "Pasted image 20250917110102.png",
-    "Pasted image 20250917104558.png",
-    "Pasted image 20250917103658.png",
-    "interview/Linux系统编程/49 内存映射",
-    "C++面试题/未命名",
-    "C++面试题",
-    "interview/项目2/GoogleBenchMark"
+    "Pasted image 20250917104558.png"
   ]
 }
