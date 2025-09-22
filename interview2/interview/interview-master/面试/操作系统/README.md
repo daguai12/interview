@@ -129,7 +129,7 @@
 * [awk](awk.md)
 * [ps](interview/interview/interview-master/面试/操作系统/Linux/command/ps.md)
 * [free](free.md)
-* [df](df.md)
+* [df](interview2/interview/interview-master/面试/操作系统/Linux/command/df.md)
 * [du](du.md)
 
 1-1.[修改文件最大句柄数](interview/interview-master/面试/操作系统/Linux/1-1.md)
