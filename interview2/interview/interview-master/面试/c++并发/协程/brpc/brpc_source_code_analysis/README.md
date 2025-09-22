@@ -1,0 +1,29 @@
+# 目录
+* brpc的M:N线程模型
+  * [bthread基础](interview/interview-master/面试/c++并发/协程/brpc/brpc_source_code_analysis/docs/bthread_basis.md)
+  * [多核环境下pthread调度执行bthread的过程](interview/interview-master/面试/c++并发/协程/brpc/brpc_source_code_analysis/docs/bthread_schedule.md)
+  * [pthread线程间的Futex同步](interview/interview-master/面试/c++并发/协程/brpc/brpc_source_code_analysis/docs/futex.md)
+  * [Butex机制：bthread粒度的挂起与唤醒](interview/interview-master/面试/c++并发/协程/brpc/brpc_source_code_analysis/docs/butex.md)
+* Client端执行流程
+  * [无异常状态下的一次完整RPC请求过程](interview/interview-master/面试/c++并发/协程/brpc/brpc_source_code_analysis/docs/client_rpc_normal.md)
+  * [RPC请求可能遇到的多种异常及应对策略](interview/interview-master/面试/c++并发/协程/brpc/brpc_source_code_analysis/docs/client_rpc_exception.md)
+  * 重试&Backup Request
+  * [同一RPC过程中各个bthread间的互斥](interview/interview-master/面试/c++并发/协程/brpc/brpc_source_code_analysis/docs/client_bthread_sync.md)
+* Server端执行流程
+  * 处理一次RPC请求的完整过程
+  * 服务器自动限流
+  * 防雪崩
+* 并发读写TCP连接上的数据
+  * protobuf编程模式
+  * [多线程向同一TCP连接写入数据](interview/interview-master/面试/c++并发/协程/brpc/brpc_source_code_analysis/docs/io_write.md)
+  * [从TCP连接读取数据的并发处理](interview/interview-master/面试/c++并发/协程/brpc/brpc_source_code_analysis/docs/io_read.md)
+* 内存管理
+  * [ResourcePool：多线程下高效的内存分配与回收](interview/interview-master/面试/c++并发/协程/brpc/brpc_source_code_analysis/docs/resource_pool.md)
+  * I/O读写缓冲区
+* brpc的实时监控
+  * bvar库
+  * 常用性能监控指标
+* 基础库
+  * [侵入式双向链表](interview/interview-master/面试/c++并发/协程/brpc/brpc_source_code_analysis/docs/linkedlist.md)
+  * FlatMap哈希表
+  * 多线程框架下的定时器

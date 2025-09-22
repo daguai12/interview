@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "8af7e39c589f0d34",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a5a8caadb72e1a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cce6d9947a87ce00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux系统编程/疑问汇总/ET模式需要设置的套接字.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ET模式需要设置的套接字"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eea67e105f345fa4",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a92297a445a9394",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ff94196206b6162",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "44c6ccda1a351962",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "bb1ece311273e8fa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 328.5
+  },
+  "right": {
+    "id": "c1d6634a2bd8984a",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c4b38455b53c461",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b84950739b8050e9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "项目/协程库/模块详解/Scheduler详解.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Scheduler详解 的反向链接列表"
+            }
+          },
+          {
+            "id": "014fd49097ce833d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "欢迎.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "欢迎 的出链列表"
+            }
+          },
+          {
+            "id": "8d2c9cc5f3aa2b00",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "6be7b615c31664f6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "欢迎.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "欢迎 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "pkmer:Open Pkmer Market": false
+    }
+  },
+  "active": "3ff94196206b6162",
+  "lastOpenFiles": [
+    "Linux系统编程/疑问汇总",
+    "项目/协程库/模块详解/Hook详解.md",
+    "项目/协程库/va_list使用.md",
+    "项目/协程库/模块详解/Timer详解.md",
+    "项目/协程库/模块详解/Timer类成员m_tickle详解.md",
+    "项目/协程库/模块详解/IOScheduler详解.md",
+    "项目/协程库/模块详解/Scheduler详解.md",
+    "项目/协程库/ucontext学习.md",
+    "项目/协程库/enable_shared_from_this.md",
+    "项目/协程库/CPU上下文切换.md",
+    "Linux系统编程/61/61.9 套接字选项.md",
+    "Linux系统编程/61/61.5 获取套接字地址.md",
+    "Linux系统编程/61/61.4 sendfile()系统调用.md",
+    "Pasted image 20250707212804.png",
+    "Linux系统编程/61/61.2 shutdown()系统调用.md",
+    "Linux系统编程/61/61.1 流式套接字上的部分读和部分写.md",
+    "Linux系统编程/61",
+    "Linux系统编程/63/2 IO多路复用.md",
+    "Linux系统编程/疑问汇总/ET模式需要设置的套接字.md",
+    "Linux系统编程/13 文件IO缓冲.md",
+    "Linux系统编程/63/未命名.md",
+    "Linux系统编程/63/63.3.3 深入理解epoll语义.md",
+    "Linux系统编程/63",
+    "C++并发编程/4.unique_lock,读写锁以及递归锁.md",
+    "C++并发编程/5.线程安全的单例模式.md",
+    "C++并发编程/6. 利用条件变量构造线程安全队列.md",
+    "C++基础核心内容/C++基础知识.md",
+    "Muduo网络库剖析/Poller模块概述.md",
+    "Muduo网络库剖析/Thread模块剖析.md",
+    "Cmake/Morden CMake/测试",
+    "Cmake/总结",
+    "Cmake/Morden CMake",
+    "项目/协程库/模块详解",
+    "Pasted image 20250628154512.png",
+    "Pasted image 20250628154429.png",
+    "Pasted image 20250628154335.png",
+    "Pasted image 20250628154223.png",
+    "Pasted image 20250628154140.png",
+    "计算机网络/Computer-Networking-A-Top-Down-Approach-NOTES-master/WiresharkLab/Wireshark实验-ICMP/计算机网络实验-ICMP.pdf",
+    "项目/协程库",
+    "未命名",
+    "项目",
+    "Pasted image 20250627201059.png",
+    "Pasted image 20250627155806.png",
+    "interview/interview-master/面试/c++并发/协程/ucontext簇函数学习_实际使用.png",
+    "图片/Pasted image 20250623152301.png"
+  ]
+}

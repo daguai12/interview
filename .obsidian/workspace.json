@@ -41,26 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++面试题/121、static_cast⽐C语⾔中的转换强在哪⾥？.md",
+                "file": "interview/Linux系统编程/57 SOCKET：UNIX DOMAIN/57.2 UNIX domain 中的流 socket.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "121、static_cast⽐C语⾔中的转换强在哪⾥？"
-            }
-          },
-          {
-            "id": "3a992270a6264484",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interview/Linux系统编程/51 POSIX IPC介绍/51.2 System V IPC 与 POSIX IPC比较.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "51.2 System V IPC 与 POSIX IPC比较"
+              "title": "57.2 UNIX domain 中的流 socket"
             }
           },
           {
@@ -78,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -227,53 +213,53 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "3a992270a6264484",
+  "active": "21fd9727e000596b",
   "lastOpenFiles": [
-    "interview/Linux系统编程/51 POSIX IPC介绍/51.1 API概述.md",
-    "interview/Linux系统编程/52 POSIX消息队列/52.1 概述.md",
-    "C++内存管理/2、简要说明C++的内存分区.md",
-    "C++内存管理/1、类的对象存储空间？.md",
-    "C++面试题/135、在进⾏函数参数以及返回值传递时，可以使⽤引⽤或者值传递，其中使⽤引⽤的好处有.md",
-    "C++内存管理",
-    "C++面试题/133、为什么不能把所有的函数写成内联函数?.md",
-    "C++面试题/129、动态编译与静态编译.md",
-    "C++面试题/127、友元函数和友元类的基本情况.md",
-    "C++面试题/126、为什么友元函数必须在类内部声明？.md",
-    "C++面试题/125、C++从代码到可执⾏程序经历了什么？.md",
-    "C++面试题/124、什么是⼀致性哈希？.md",
-    "C++面试题/123、你知道回调函数吗？它的作⽤？.md",
-    "C++面试题/122、成员函数⾥memset(this,0,sizeof(*this))会发⽣什么.md",
-    "C++面试题/121、static_cast⽐C语⾔中的转换强在哪⾥？.md",
-    "C++面试题/118、main函数的返回值有什么值得考究之处吗？.md",
-    "C++面试题/117、你知道Debug和release的区别是什么吗？.md",
-    "C++面试题/116、 如何禁⽌程序⾃动⽣成拷⻉构造函数？.md",
-    "C++面试题/115、如何阻⽌⼀个类被实例化？有哪些⽅法？.md",
-    "C++面试题/114、你知道数组和指针的区别吗？.md",
-    "C++面试题/113、将引⽤作为函数参数有哪些好处？.md",
-    "C++面试题/112、说⼀说strcpy、sprintf与memcpy这三个函数的不同之处.md",
-    "C++面试题/110、成员初始化列表会在什么时候⽤到？它的调⽤过程是什么？.md",
-    "C++面试题/108、如何设计⼀个类计算⼦类的个数？.md",
-    "C++面试题/107、你知道静态绑定和动态绑定吗？讲讲？.md",
-    "C++面试题/106、你什么情况⽤指针当参数，什么时候⽤引⽤，为什么？.md",
-    "Linux命令行大全/32 位置参数.md",
-    "C++17新特性/C++17完全指南",
-    "C++17新特性",
-    "interview/Linux系统编程/63 其他备选的IO模型",
-    "Pasted image 20250919101751.png",
-    "interview/Linux系统编程/61 SOCKET：高级主题",
-    "interview/Linux系统编程/60 服务器设计",
-    "interview/Linux系统编程/60 SOCKET： 高级主题",
-    "Pasted image 20250918163128.png",
-    "Pasted image 20250918155710.png",
-    "interview/Linux系统编程/59 SOCKET：Internet Domain",
-    "interview/Linux系统编程/57 SOCKET：UNIX DOMAIN",
-    "Pasted image 20250918104251.png",
-    "Pasted image 20250918103200.png",
-    "Pasted image 20250918102351.png",
-    "Pasted image 20250918102336.png",
-    "interview/Linux系统编程/56 SOCKET：介绍",
-    "Pasted image 20250917110323.png",
-    "Pasted image 20250917110102.png",
-    "Pasted image 20250917104558.png"
+    "interview2/valgrind/option/--vgdb.md",
+    "interview2/valgrind/option/--track-origins.md",
+    "interview2/valgrind/option/--leak-resolution.md",
+    "interview2/valgrind/option/--leak-check.md",
+    "interview2/valgrind/博客摘要.md",
+    "interview2/valgrind/option",
+    "interview2/valgrind/learn.md",
+    "interview2/valgrind",
+    "interview2/项目2/代码解析/src/comp/wait_group.cpp.md",
+    "interview2/项目2/代码解析/src/comp/mutex.cpp.md",
+    "interview2/项目2/代码解析/src/comp/event.cpp.md",
+    "interview2/项目2/代码解析/src/comp/condition_variable.cpp.md",
+    "interview2/项目2/代码解析/io/tcp/tcp.hpp.md",
+    "interview2/项目2/代码解析/src/scheduler.cpp.md",
+    "interview2/项目2/代码解析/src/io_awaiter.cpp.md",
+    "interview2/项目2/代码解析/src/io",
+    "interview2/项目2/代码解析/src/engine.cpp.md",
+    "interview2/项目2/代码解析/src/context.cpp.md",
+    "interview2/项目2/代码解析/src/comp",
+    "interview2/项目2/代码解析/comp/wait_gorup.hpp.md",
+    "interview2/项目2/代码解析/comp/mutex.hpp.md",
+    "interview2/项目2/代码解析/comp/latch.hpp.md",
+    "interview2/项目2/代码解析/comp/event.hpp.md",
+    "interview2/项目2/代码解析/comp/condition_variable.hpp.md",
+    "interview2/项目2/代码解析/comp/channel.hpp.md",
+    "interview2/项目2/知识点补充/type_traits/pod_type.md",
+    "interview2/项目2/知识点补充/type_traits/is_constructible_v.md",
+    "interview2/项目2/知识点补充/type_traits/conditional_t.md",
+    "interview2/项目2/知识点补充/C++20/latch.md",
+    "interview2/项目2/知识点补充/C++20/jthread.md",
+    "interview2/项目2/代码解析/io/tcp",
+    "interview2/项目2/知识点补充/type_traits",
+    "interview2/项目2/知识点补充/C++20",
+    "interview2/项目2/压力测试/benchmarks",
+    "interview2/项目2/压力测试/benchmark",
+    "interview2/项目2/代码解析/src",
+    "interview2/计算机网络/Computer-Networking-A-Top-Down-Approach-NOTES-master/WiresharkLab/Wireshark实验-Intro/image/图5-执行第9步之后的Wireshark窗口.png",
+    "interview2/计算机网络/Computer-Networking-A-Top-Down-Approach-NOTES-master/WiresharkLab/Wireshark实验-Intro/image/图4-Wireshark抓包接口窗口.png",
+    "interview2/计算机网络/Computer-Networking-A-Top-Down-Approach-NOTES-master/WiresharkLab/Wireshark实验-Intro/image/图3-Wireshark抓包和分析时的用户界面.png",
+    "interview2/计算机网络/Computer-Networking-A-Top-Down-Approach-NOTES-master/WiresharkLab/Wireshark实验-Intro/image/图2-Wireshark初始界面.png",
+    "interview2/计算机网络/Computer-Networking-A-Top-Down-Approach-NOTES-master/WiresharkLab/Wireshark实验-Intro/image/图1-分组嗅探器结构.png",
+    "interview2/计算机网络/Computer-Networking-A-Top-Down-Approach-NOTES-master/WiresharkLab/Wireshark实验-HTTP/image/图1.png",
+    "interview2/计算机网络/Computer-Networking-A-Top-Down-Approach-NOTES-master/WiresharkLab/Wireshark实验-DNS/image/图3.png",
+    "interview2/计算机网络/Computer-Networking-A-Top-Down-Approach-NOTES-master/WiresharkLab/Wireshark实验-DNS/image/图2.png",
+    "interview2/计算机网络/Computer-Networking-A-Top-Down-Approach-NOTES-master/WiresharkLab/Wireshark实验-DNS/image/图1.png",
+    "interview2/计算机网络/Computer-Networking-A-Top-Down-Approach-NOTES-master/WiresharkLab/Wireshark实验-DNS/image/dns4.png"
   ]
 }
