@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++内存管理/2、简要说明C++的内存分区.md",
+                "file": "interview/Linux系统编程/51 POSIX IPC介绍/51.2 System V IPC 与 POSIX IPC比较.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2、简要说明C++的内存分区"
+              "title": "51.2 System V IPC 与 POSIX IPC比较"
             }
           },
           {
@@ -229,8 +229,10 @@
   },
   "active": "3a992270a6264484",
   "lastOpenFiles": [
-    "C++内存管理/1、类的对象存储空间？.md",
+    "interview/Linux系统编程/51 POSIX IPC介绍/51.1 API概述.md",
+    "interview/Linux系统编程/52 POSIX消息队列/52.1 概述.md",
     "C++内存管理/2、简要说明C++的内存分区.md",
+    "C++内存管理/1、类的对象存储空间？.md",
     "C++面试题/135、在进⾏函数参数以及返回值传递时，可以使⽤引⽤或者值传递，其中使⽤引⽤的好处有.md",
     "C++内存管理",
     "C++面试题/133、为什么不能把所有的函数写成内联函数?.md",
@@ -254,8 +256,6 @@
     "C++面试题/107、你知道静态绑定和动态绑定吗？讲讲？.md",
     "C++面试题/106、你什么情况⽤指针当参数，什么时候⽤引⽤，为什么？.md",
     "Linux命令行大全/32 位置参数.md",
-    "Linux命令行大全/31. 流程控制： case分支.md",
-    "Linux命令行大全/30 故障诊断.md",
     "C++17新特性/C++17完全指南",
     "C++17新特性",
     "interview/Linux系统编程/63 其他备选的IO模型",
