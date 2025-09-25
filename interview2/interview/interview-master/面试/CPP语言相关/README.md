@@ -54,7 +54,7 @@
 
 * [vector](vector.md)
 
-* [deque](deque.md)
+* [deque](interview2/interview/interview-master/面试/CPP语言相关/STL/容器containers/deque/deque.md)
 
 * [list](interview/interview-master/面试/CPP语言相关/STL/容器containers/list/list.md)
 
