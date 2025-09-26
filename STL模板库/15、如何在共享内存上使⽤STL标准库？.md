@@ -110,7 +110,7 @@ int main() {
 
     } catch (const bip::interprocess_exception& ex) {
         std::cerr << "Writer Error: " << ex.what() << std::endl;
-        bip::shared_memory_object::remove("MySharedMemory");
+        bip::shared_red_memory_object::remove("MySharedMemory");
         return 1;
     }
     return 0;

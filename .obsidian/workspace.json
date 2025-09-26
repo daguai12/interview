@@ -13,15 +13,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "x86汇编/3.10 在机器级程序中将控制与数据结合起来.md",
+                "file": "x86汇编/3. 4访问信息.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.10 在机器级程序中将控制与数据结合起来"
+              "title": "3. 4访问信息"
+            }
+          },
+          {
+            "id": "6cf8c6b1867663b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "x86汇编/3. 6 控制.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3. 6 控制"
+            }
+          },
+          {
+            "id": "c1bc33ef7f64d81b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git/2. git diff.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. git diff"
+            }
+          },
+          {
+            "id": "340d697635968c8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "示例解读2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "示例解读2"
+            }
+          },
+          {
+            "id": "356ba526ca53855f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "示例解读2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "示例解读2"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -53,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "菱形继承",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,40 +227,42 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "554db80d150bb2c7",
+  "active": "c1bc33ef7f64d81b",
   "lastOpenFiles": [
-    "Pasted image 20250925225433.png",
-    "x86汇编/3.9 异质的数据结构.md",
-    "x86汇编/3.10 在机器级程序中将控制与数据结合起来.md",
-    "x86汇编/3.8 数组分配和访问.md",
-    "x86汇编/3.7 过程.md",
-    "Pasted image 20250925224239.png",
-    "Pasted image 20250925224040.png",
-    "Pasted image 20250925223903.png",
+    "示例解读3.md",
     "x86汇编/3. 6 控制.md",
     "x86汇编/3. 5 算数和逻辑操作.md",
     "x86汇编/3. 4访问信息.md",
-    "Pasted image 20250925222013.png",
-    "x86汇编/3. 2 程序编码.md",
+    "示例解读2.md",
+    "示例解读.md",
     "x86汇编/3. 3 数据格式.md",
-    "git/2. git diff.md",
-    "git/1. git reset.md",
-    "C++11 新特性/6 bind.md",
+    "C++17新特性/8.  any.md",
+    "C++17新特性/概述(GPT).md",
+    "C++14 新特性/2. enum 和 union.md",
+    "C++17新特性/4. optional.md",
+    "C++17新特性/7.  variant.md",
+    "C++11 新特性/补充/decay_t.md",
+    "C++17新特性/5. string_view.md",
+    "C++17新特性/6. inline constexpr.md",
+    "C++17新特性/7. 可变参数模板.md",
+    "C++17新特性/概述.md",
+    "C++17新特性/C++17完全指南/5. string_view.md",
+    "C++ 其余问题/11、构造函数、析构函数的执⾏顺序？构造函数和拷⻉构造的内部都⼲了啥？.md",
+    "C++ 其余问题/10、构造函数和析构函数可以调⽤虚函数吗，为什么.md",
+    "C++ 其余问题/9、析构函数的作⽤，如何起作⽤？.md",
+    "C++ 其余问题/8、构造函数为什么不能为虚函数？析构函数为什么要虚函数？.md",
+    "C++ 其余问题/6、构造函数、析构函数、虚函数可否声明为内联函数.md",
+    "C++ 其余问题/4、基类的虚函数表存放在内存的什么区，虚表指针vptr的初始化时间.md",
+    "C++面试题/未命名.md",
+    "C++内存管理/vbptr和vbtable.md",
+    "C++ 其余问题",
+    "Pasted image 20250925225433.png",
+    "Pasted image 20250925224239.png",
+    "Pasted image 20250925224040.png",
+    "Pasted image 20250925223903.png",
+    "Pasted image 20250925222013.png",
     "git",
-    "C++11 新特性/5. reference_wrapper.md",
-    "C++11 新特性/4 addressof.md",
-    "C++17新特性/模板/可变参数模板.md",
-    "C++17新特性/匿名模板参数.md",
-    "C++17新特性/模板/模板的特例化.md",
     "C++17新特性/模板",
-    "C++17新特性/void_t.md",
-    "STL模板库/13、STL迭代器如何实现.md",
-    "STL模板库/15、如何在共享内存上使⽤STL标准库？.md",
-    "STL模板库/14、map、set是怎么实现的，红⿊树是怎么能够同时实现这两种容器？ 为什么使⽤红⿊.md",
-    "STL模板库/POD详解.md",
-    "STL模板库/deque.md",
-    "STL模板库/iterator_traits.md",
-    "C++17新特性/true_type和false_type.md",
     "STL模板库",
     "x86汇编",
     "Pasted image 20250628154335.png",
@@ -215,8 +274,6 @@
     "C++11 新特性/补充",
     "C++11 新特性",
     "Linux命令行大全/补充",
-    "interview2/valgrind/option",
-    "interview2/计算机网络/Computer-Networking-A-Top-Down-Approach-NOTES-master/WiresharkLab/Wireshark实验-Intro/image/图5-执行第9步之后的Wireshark窗口.png",
-    "interview2/计算机网络/Computer-Networking-A-Top-Down-Approach-NOTES-master/WiresharkLab/Wireshark实验-Intro/image/图4-Wireshark抓包接口窗口.png"
+    "interview2/计算机网络/Computer-Networking-A-Top-Down-Approach-NOTES-master/WiresharkLab/Wireshark实验-Intro/image/图5-执行第9步之后的Wireshark窗口.png"
   ]
 }
