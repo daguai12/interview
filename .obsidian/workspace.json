@@ -8,49 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "554db80d150bb2c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "x86汇编/3. 4访问信息.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3. 4访问信息"
-            }
-          },
-          {
             "id": "6cf8c6b1867663b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "x86汇编/3. 6 控制.md",
+                "file": "x86汇编/3.7 过程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. 6 控制"
-            }
-          },
-          {
-            "id": "c1bc33ef7f64d81b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++并发编程/4 mutex.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4 mutex"
+              "title": "3.7 过程"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,15 +170,24 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "c1bc33ef7f64d81b",
+  "active": "6cf8c6b1867663b1",
   "lastOpenFiles": [
-    "C++并发编程/概述.md",
-    "C++并发编程/4 mutex.md",
-    "C++并发编程/3 semaphore.md",
-    "C++ 20新特性/链接.md",
-    "C++并发编程/2  condition_variable.md",
+    "Pasted image 20250928224441.png",
+    "Pasted image 20250928223952.png",
+    "x86汇编/3. 6 控制.md",
+    "x86汇编/3. 5 算数和逻辑操作.md",
+    "示例解读3.md",
+    "x86汇编/3. 4访问信息.md",
     "C++11 新特性/8 chrono.md",
+    "C++并发编程/3 semaphore.md",
+    "C++并发编程/2  condition_variable.md",
+    "C++并发编程/未命名.md",
+    "C++ 20新特性/链接.md",
+    "C++11 新特性/9 function.md",
+    "C++11 新特性/补充/function类型擦除.md",
     "C++并发编程/1. future.md",
+    "C++并发编程/4 mutex.md",
+    "C++并发编程/概述.md",
     "C++ 20新特性",
     "C++14 新特性/Gemini 概述.md",
     "C++并发编程",
@@ -217,19 +197,11 @@
     "C++14新特性",
     "C++ 模板/依赖类型以及非依赖类型详解.md",
     "C++ 模板/SFINAE.md",
-    "x86汇编/3. 6 控制.md",
     "C++17新特性/概述(GPT).md",
     "C++17新特性/10  byte.md",
     "C++17新特性/9.  类模板实参推导.md",
     "C++11 新特性/7 noexcept.md",
     "C++11 新特性/补充/emplace和emplace_back.md",
-    "C++ 其余问题/36、什么是纯虚函数，与虚函数的区别.md",
-    "C++ 其余问题/35、哪些函数不能是虚函数？把你知道的都说⼀说.md",
-    "C++ 其余问题/33、构造函数的执⾏顺序是什么？.md",
-    "C++ 其余问题/34、⼀个类中的全部构造函数的扩展过程是什么？.md",
-    "C++ 其余问题/29、虚函数的代价？.md",
-    "C++ 其余问题/30、说⼀说你了解到的移动构造函数？.md",
-    "C++ 其余问题/27、为什么拷⻉构造函数必须传引⽤不能传值？.md",
     "C++ 其余问题",
     "Pasted image 20250925225433.png",
     "Pasted image 20250925224239.png",
@@ -245,7 +217,6 @@
     "Pasted image 20250909102259.png",
     "Pasted image 20250905211830.png",
     "C++14 新特性",
-    "C++11新标准",
-    "interview2/计算机网络/Computer-Networking-A-Top-Down-Approach-NOTES-master/WiresharkLab/Wireshark实验-Intro/image/图5-执行第9步之后的Wireshark窗口.png"
+    "C++11新标准"
   ]
 }
