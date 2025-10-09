@@ -105,3 +105,110 @@ private:
   * **实现原理**：定时器本身不主动触发。它的触发依赖于`IOManager`的`idle`协程。`idle`协程在调用`epoll_wait`进行阻塞前，会先从`TimerManager`获取下一个定时器的超时时间差，并将其作为`epoll_wait`的`timeout`参数。
   * **协同工作流程**：当`epoll_wait`返回时（无论是被IO事件唤醒还是超时），`idle`协程会立即检查并处理所有已经到期的定时器，将它们的回调函数作为新任务放入调度队列。如果是周期性任务，还会更新其下一次的触发时间并重新放入定时器集合。
   * **优点**：这种设计的最大优点是**节能**。当服务器既没有IO事件也没有定时任务时，所有线程都会随`epoll_wait`一起深度睡眠，完全不消耗CPU，完美地将IO事件和时间事件统一到了同一个事件循环中。”
+
+
+
+# addConditionTimer函数
+
+好的，`addConditionTimer` 是您定时器模块中一个非常精妙且重要的功能。相比于`addTimer`，它主要为了解决异步编程中的一个典型痛点：**资源生命周期管理和竞态条件 (Race Condition)**。
+
+下面我将为您详细讲解它的用处、用法和好处。
+
+### 1\. `addConditionTimer` 的核心用处
+
+**核心用处**：创建一个**有条件的**定时器。这个定时器的回调函数**只有在它所绑定的“条件对象”仍然存活时，才会被执行**。如果“条件对象”在定时器到期之前就已经被销毁了，那么这个定时器的回调函数就会被**自动、安全地忽略**，不会执行。
+
+这在处理异步操作超时中非常关键。
+
+-----
+
+### 2\. 用法：如何使用它？
+
+`addConditionTimer` 的用法遵循一个固定的模式，这个模式在您的 `hook.cpp` 的 `do_io` 函数中有完美的体现。
+
+它的函数签名是：
+
+```cpp
+// dag/timer.h
+std::shared_ptr<Timer> addConditionTimer(uint64_t ms,
+                                       std::function<void()> cb,
+                                       std::weak_ptr<void> weak_cond, // [核心] 条件
+                                       bool recurring = false);
+```
+
+**标准使用三步曲**：
+
+1.  **创建状态对象**：创建一个`std::shared_ptr`来持有一个状态对象。这个对象的生命周期就代表了异步操作的有效性。在您的代码中，这个对象是`timer_info`。
+
+    ```cpp
+    // hook.cpp
+    std::shared_ptr<timer_info> tinfo(new timer_info);
+    ```
+
+2.  **创建弱引用指针**：从这个`shared_ptr`创建一个`std::weak_ptr`。`weak_ptr`是这里的关键，它“观察”着状态对象，但**不增加其引用计数**。
+
+    ```cpp
+    // hook.cpp
+    std::weak_ptr<timer_info> winfo(tinfo);
+    ```
+
+3.  **添加条件定时器**：调用`addConditionTimer`，将这个`weak_ptr`作为`weak_cond`参数传入。
+
+    ```cpp
+    // hook.cpp
+    timer = iom->addConditionTimer(timeout, [winfo, ...]() {
+        // ... 超时逻辑 ...
+    }, winfo);
+    ```
+
+#### **内部实现机制**
+
+`addConditionTimer` 本身并不复杂，它将用户传入的回调函数`cb`包装进了一个内部函数 `OnTimer`：
+
+```cpp
+// dag/timer.cpp
+static void OnTimer(std::weak_ptr<void> weak_cond, std::function<void()> cb) {
+    std::shared_ptr<void> tmp = weak_cond.lock(); // 尝试提升弱引用
+    if(tmp) { // 如果提升成功，说明对象还活着
+        cb(); // 才执行真正的回调
+    }
+    // 如果提升失败，说明对象已被销毁，这里什么都不做
+}
+```
+
+当定时器到期时，`TimerManager`执行的是`OnTimer`。`OnTimer`会尝试`lock()`这个`weak_ptr`。
+
+  * 如果成功，说明原始的`shared_ptr`（比如`tinfo`）还在某处存活，操作仍然有效，于是执行真正的回调`cb`。
+  * 如果失败（返回`nullptr`），说明原始的`shared_ptr`已经被销毁，意味着异步操作已经提前完成或被取消，此时回调逻辑就不应该再执行，`OnTimer`会静默地结束。
+
+-----
+
+### 3\. 好处：相比 `addTimer`，它解决了什么致命问题？
+
+让我们通过一个异步IO的例子来对比 `addTimer` 和 `addConditionTimer`。
+
+**场景**：一个协程发起了一个网络`read`操作，并设置了5秒的超时。
+
+**如果使用 `addTimer` (存在缺陷)**：
+
+1.  协程调用 `iom->addTimer(5000, on_timeout_cb)` 来设置一个5秒后的超时回调。
+2.  协程`yield`，等待IO。
+3.  **在第2秒**，网络数据到达，`IOManager`唤醒该协程。
+4.  协程恢复执行，成功`read`到数据，然后调用`timer->cancel()`来取消定时器。
+5.  **竞态条件发生点**：在多核高并发环境下，完全有可能在协程调用`timer->cancel()`的**同时**，`TimerManager`所在的另一个线程已经判断出这个5秒的定时器到期，并**已经将`on_timeout_cb`取出来准备执行了**。
+6.  此时，`cancel()`虽然成功了，但为时已晚，`on_timeout_cb`仍然会被执行。
+7.  如果`on_timeout_cb`里面访问了某些只在该异步操作期间有效的资源（比如`tinfo`指针），而这些资源在协程成功返回后已经被释放了，那么就会导致**悬垂指针 (Dangling Pointer) 访问**，程序**必然崩溃**。
+
+**如果使用 `addConditionTimer` (安全且优雅)**：
+
+1.  协程创建一个`shared_ptr<timer_info> tinfo`，并用它的`weak_ptr`调用`addConditionTimer`。
+2.  协程`yield`，等待IO。
+3.  **在第2秒**，网络数据到达，协程被唤醒并成功返回。
+4.  协程函数返回后，`tinfo`这个`shared_ptr`因为超出了作用域而被**自动销毁**。
+5.  **竞态条件被解决**：即使在第5秒，`TimerManager`发现定时器到期并执行了`OnTimer`，`OnTimer`在尝试`weak_ptr.lock()`时会失败，因为它指向的对象已经被销毁了。因此，用户的超时回调逻辑**绝对不会被执行**。
+
+**总结的好处**：
+
+  * **自动取消**：定时器的回调与一个对象的生命周期绑定，对象销毁，回调自动失效。你不再需要在操作成功后手动`cancel`定时器，代码更简洁。
+  * **线程安全**：从根本上解决了异步回调中的“use-after-free”问题，杜绝了因竞态条件导致的回调访问悬垂指针的致命BUG。
+  * **逻辑清晰**：它将“超时”这个概念与“异步操作本身”的有效性绑定在了一起，使得代码的意图更加清晰和健壮。
