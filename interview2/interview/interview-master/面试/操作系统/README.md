@@ -122,8 +122,8 @@
 
 #### 1.常用命令
 
-* [netstat](netstat.md)
-* [tcpdump](tcpdump.md)
+* [netstat](interview2/interview/interview-master/面试/操作系统/Linux/command/netstat.md)
+* [tcpdump](interview2/interview/interview-master/面试/操作系统/Linux/command/tcpdump.md)
 * [ipcs](ipcs.md)
 * [ipcrm](ipcrm.md)
 * [awk](awk.md)
