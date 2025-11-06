@@ -101,6 +101,7 @@ message(STATUS "Binary install dir: ${CMAKE_INSTALL_BINDIR}")
 message(STATUS "Library install dir: ${CMAKE_INSTALL_LIBDIR}")
 message(STATUS "Include install dir: ${CMAKE_INSTALL_INCLUDEDIR}")
 # 添加子目录
+
 add_subdirectory(greeter)
 add_subdirectory(src)
 # --- 安装规则 ---
